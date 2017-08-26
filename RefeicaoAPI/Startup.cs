@@ -30,9 +30,13 @@ namespace RefeicaoAPI
             services.AddMvc();
 
             services.AddTransient<IUsuarioManager, UsuarioManager>();
+            services.AddTransient<IRestauranteManager, RestauranteManager>();
 
             //services.AddTransient<IUsuarioRepository, UsuarioRepository>();
             services.AddTransient<IUsuarioRepository, UsuarioRepositoryMock>();
+
+            //services.AddTransient<IRestauranteRepository, RestauranteRepository>();
+            services.AddTransient<IRestauranteRepository, RestauranteRepositoryMock>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
