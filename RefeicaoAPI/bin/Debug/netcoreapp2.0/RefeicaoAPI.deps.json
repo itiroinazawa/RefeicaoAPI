@@ -25,7 +25,12 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0",
+          "RefeicaoAPI.Business": "1.0.0",
+          "RefeicaoAPI.Business.Interfaces": "1.0.0",
+          "RefeicaoAPI.Entities": "1.0.0",
+          "RefeicaoAPI.Repository": "1.0.0",
+          "RefeicaoAPI.Repository.Interfaces": "1.0.0"
         },
         "runtime": {
           "RefeicaoAPI.dll": {}
@@ -4054,6 +4059,60 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "RefeicaoAPI.Business/1.0.0": {
+        "dependencies": {
+          "RefeicaoAPI.Business.Interfaces": "1.0.0",
+          "RefeicaoAPI.Entities": "1.0.0",
+          "RefeicaoAPI.Repository.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "RefeicaoAPI.Business.dll": {}
+        },
+        "compile": {
+          "RefeicaoAPI.Business.dll": {}
+        }
+      },
+      "RefeicaoAPI.Business.Interfaces/1.0.0": {
+        "dependencies": {
+          "RefeicaoAPI.Entities": "1.0.0"
+        },
+        "runtime": {
+          "RefeicaoAPI.Business.Interfaces.dll": {}
+        },
+        "compile": {
+          "RefeicaoAPI.Business.Interfaces.dll": {}
+        }
+      },
+      "RefeicaoAPI.Entities/1.0.0": {
+        "runtime": {
+          "RefeicaoAPI.Entities.dll": {}
+        },
+        "compile": {
+          "RefeicaoAPI.Entities.dll": {}
+        }
+      },
+      "RefeicaoAPI.Repository/1.0.0": {
+        "dependencies": {
+          "RefeicaoAPI.Repository.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "RefeicaoAPI.Repository.dll": {}
+        },
+        "compile": {
+          "RefeicaoAPI.Repository.dll": {}
+        }
+      },
+      "RefeicaoAPI.Repository.Interfaces/1.0.0": {
+        "dependencies": {
+          "RefeicaoAPI.Entities": "1.0.0"
+        },
+        "runtime": {
+          "RefeicaoAPI.Repository.Interfaces.dll": {}
+        },
+        "compile": {
+          "RefeicaoAPI.Repository.Interfaces.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -6365,6 +6424,31 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+    },
+    "RefeicaoAPI.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefeicaoAPI.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefeicaoAPI.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefeicaoAPI.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefeicaoAPI.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",

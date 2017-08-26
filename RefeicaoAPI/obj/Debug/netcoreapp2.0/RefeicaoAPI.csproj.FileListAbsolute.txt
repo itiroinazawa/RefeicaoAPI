@@ -9,3 +9,24 @@ C:\Users\r.inazawa.araujo\Desktop\WebAPI - .NET Core\RefeicaoAPI\RefeicaoAPI\Ref
 C:\Users\r.inazawa.araujo\Desktop\WebAPI - .NET Core\RefeicaoAPI\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.AssemblyInfo.cs
 C:\Users\r.inazawa.araujo\Desktop\WebAPI - .NET Core\RefeicaoAPI\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.dll
 C:\Users\r.inazawa.araujo\Desktop\WebAPI - .NET Core\RefeicaoAPI\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.deps.json
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.runtimeconfig.json
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.runtimeconfig.dev.json
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.csprojResolveAssemblyReference.cache
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.csproj.CoreCompileInputs.cache
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.AssemblyInfoInputs.cache
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.AssemblyInfo.cs
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\obj\Debug\netcoreapp2.0\RefeicaoAPI.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.Interfaces.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Entities.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Repository.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Repository.Interfaces.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.Interfaces.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Entities.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Repository.Interfaces.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI\bin\Debug\netcoreapp2.0\RefeicaoAPI.Repository.pdb

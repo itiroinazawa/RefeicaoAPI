@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefeicaoAPI", "RefeicaoAPI\RefeicaoAPI.csproj", "{96A02F47-A6FC-48A3-9B5B-1C08DEC0AE84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefeicaoAPI", "RefeicaoAPI\RefeicaoAPI.csproj", "{96A02F47-A6FC-48A3-9B5B-1C08DEC0AE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefeicaoAPI.Business", "RefeicaoAPI.BusinessLayer\RefeicaoAPI.Business.csproj", "{C3200FA9-59F0-4311-A799-A7C3823BAD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefeicaoAPI.Business.Interfaces", "RefeicaoAPI.Business.Interfaces\RefeicaoAPI.Business.Interfaces.csproj", "{3C81FDBA-F908-47D5-8AC3-B200B44556EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefeicaoAPI.Repository", "RefeicaoAPI.Repository\RefeicaoAPI.Repository.csproj", "{6CD01DE3-3728-4697-A5B7-8BBAB568B38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefeicaoAPI.Repository.Interfaces", "RefeicaoAPI.Repository.Interfaces\RefeicaoAPI.Repository.Interfaces.csproj", "{D7A258FF-E6CD-4A77-AEA1-9E97AA4607AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefeicaoAPI.Entities", "RefeicaoAPI.Entities\RefeicaoAPI.Entities.csproj", "{CE78FA97-71A5-4C29-AC51-A1D7C0AC9618}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{96A02F47-A6FC-48A3-9B5B-1C08DEC0AE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A02F47-A6FC-48A3-9B5B-1C08DEC0AE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A02F47-A6FC-48A3-9B5B-1C08DEC0AE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3200FA9-59F0-4311-A799-A7C3823BAD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3200FA9-59F0-4311-A799-A7C3823BAD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3200FA9-59F0-4311-A799-A7C3823BAD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3200FA9-59F0-4311-A799-A7C3823BAD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C81FDBA-F908-47D5-8AC3-B200B44556EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C81FDBA-F908-47D5-8AC3-B200B44556EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C81FDBA-F908-47D5-8AC3-B200B44556EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C81FDBA-F908-47D5-8AC3-B200B44556EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD01DE3-3728-4697-A5B7-8BBAB568B38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD01DE3-3728-4697-A5B7-8BBAB568B38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD01DE3-3728-4697-A5B7-8BBAB568B38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD01DE3-3728-4697-A5B7-8BBAB568B38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A258FF-E6CD-4A77-AEA1-9E97AA4607AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A258FF-E6CD-4A77-AEA1-9E97AA4607AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A258FF-E6CD-4A77-AEA1-9E97AA4607AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A258FF-E6CD-4A77-AEA1-9E97AA4607AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE78FA97-71A5-4C29-AC51-A1D7C0AC9618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE78FA97-71A5-4C29-AC51-A1D7C0AC9618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE78FA97-71A5-4C29-AC51-A1D7C0AC9618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE78FA97-71A5-4C29-AC51-A1D7C0AC9618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

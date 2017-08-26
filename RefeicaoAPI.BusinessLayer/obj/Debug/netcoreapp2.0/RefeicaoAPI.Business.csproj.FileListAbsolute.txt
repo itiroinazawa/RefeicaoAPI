@@ -1,0 +1,15 @@
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.deps.json
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\obj\Debug\netcoreapp2.0\RefeicaoAPI.Business.csprojResolveAssemblyReference.cache
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\obj\Debug\netcoreapp2.0\RefeicaoAPI.Business.csproj.CoreCompileInputs.cache
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\obj\Debug\netcoreapp2.0\RefeicaoAPI.Business.AssemblyInfoInputs.cache
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\obj\Debug\netcoreapp2.0\RefeicaoAPI.Business.AssemblyInfo.cs
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\obj\Debug\netcoreapp2.0\RefeicaoAPI.Business.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\obj\Debug\netcoreapp2.0\RefeicaoAPI.Business.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.Interfaces.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Entities.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Business.Interfaces.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Entities.pdb
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Repository.Interfaces.dll
+C:\Users\r.inazawa.araujo\Desktop\GitHub\RefeicaoAPI\RefeicaoAPI.BusinessLayer\bin\Debug\netcoreapp2.0\RefeicaoAPI.Repository.Interfaces.pdb

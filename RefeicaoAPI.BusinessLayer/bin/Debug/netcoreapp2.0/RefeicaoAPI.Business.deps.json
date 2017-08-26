@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "RefeicaoAPI.Business/1.0.0": {
+        "dependencies": {
+          "RefeicaoAPI.Business.Interfaces": "1.0.0",
+          "RefeicaoAPI.Entities": "1.0.0",
+          "RefeicaoAPI.Repository.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "RefeicaoAPI.Business.dll": {}
+        }
+      },
+      "RefeicaoAPI.Business.Interfaces/1.0.0": {
+        "dependencies": {
+          "RefeicaoAPI.Entities": "1.0.0"
+        },
+        "runtime": {
+          "RefeicaoAPI.Business.Interfaces.dll": {}
+        }
+      },
+      "RefeicaoAPI.Entities/1.0.0": {
+        "runtime": {
+          "RefeicaoAPI.Entities.dll": {}
+        }
+      },
+      "RefeicaoAPI.Repository.Interfaces/1.0.0": {
+        "dependencies": {
+          "RefeicaoAPI.Entities": "1.0.0"
+        },
+        "runtime": {
+          "RefeicaoAPI.Repository.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RefeicaoAPI.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefeicaoAPI.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefeicaoAPI.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RefeicaoAPI.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

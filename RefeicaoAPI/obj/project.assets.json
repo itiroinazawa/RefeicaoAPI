@@ -5029,6 +5029,70 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "RefeicaoAPI.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "RefeicaoAPI.Business.Interfaces": "1.0.0",
+          "RefeicaoAPI.Entities": "1.0.0",
+          "RefeicaoAPI.Repository.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RefeicaoAPI.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefeicaoAPI.Business.dll": {}
+        }
+      },
+      "RefeicaoAPI.Business.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "RefeicaoAPI.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RefeicaoAPI.Business.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefeicaoAPI.Business.Interfaces.dll": {}
+        }
+      },
+      "RefeicaoAPI.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RefeicaoAPI.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefeicaoAPI.Entities.dll": {}
+        }
+      },
+      "RefeicaoAPI.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "RefeicaoAPI.Repository.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RefeicaoAPI.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefeicaoAPI.Repository.dll": {}
+        }
+      },
+      "RefeicaoAPI.Repository.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "RefeicaoAPI.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RefeicaoAPI.Repository.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefeicaoAPI.Repository.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -13105,13 +13169,43 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "RefeicaoAPI.Business/1.0.0": {
+      "type": "project",
+      "path": "../RefeicaoAPI.BusinessLayer/RefeicaoAPI.Business.csproj",
+      "msbuildProject": "../RefeicaoAPI.BusinessLayer/RefeicaoAPI.Business.csproj"
+    },
+    "RefeicaoAPI.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../RefeicaoAPI.Business.Interfaces/RefeicaoAPI.Business.Interfaces.csproj",
+      "msbuildProject": "../RefeicaoAPI.Business.Interfaces/RefeicaoAPI.Business.Interfaces.csproj"
+    },
+    "RefeicaoAPI.Entities/1.0.0": {
+      "type": "project",
+      "path": "../RefeicaoAPI.Entities/RefeicaoAPI.Entities.csproj",
+      "msbuildProject": "../RefeicaoAPI.Entities/RefeicaoAPI.Entities.csproj"
+    },
+    "RefeicaoAPI.Repository/1.0.0": {
+      "type": "project",
+      "path": "../RefeicaoAPI.Repository/RefeicaoAPI.Repository.csproj",
+      "msbuildProject": "../RefeicaoAPI.Repository/RefeicaoAPI.Repository.csproj"
+    },
+    "RefeicaoAPI.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../RefeicaoAPI.Repository.Interfaces/RefeicaoAPI.Repository.Interfaces.csproj",
+      "msbuildProject": "../RefeicaoAPI.Repository.Interfaces/RefeicaoAPI.Repository.Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0",
+      "RefeicaoAPI.Business >= 1.0.0",
+      "RefeicaoAPI.Business.Interfaces >= 1.0.0",
+      "RefeicaoAPI.Entities >= 1.0.0",
+      "RefeicaoAPI.Repository >= 1.0.0",
+      "RefeicaoAPI.Repository.Interfaces >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13124,11 +13218,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\r.inazawa.araujo\\Desktop\\WebAPI - .NET Core\\RefeicaoAPI\\RefeicaoAPI\\RefeicaoAPI\\RefeicaoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI\\RefeicaoAPI.csproj",
       "projectName": "RefeicaoAPI",
-      "projectPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\WebAPI - .NET Core\\RefeicaoAPI\\RefeicaoAPI\\RefeicaoAPI\\RefeicaoAPI.csproj",
+      "projectPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI\\RefeicaoAPI.csproj",
       "packagesPath": "C:\\Users\\r.inazawa.araujo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\WebAPI - .NET Core\\RefeicaoAPI\\RefeicaoAPI\\RefeicaoAPI\\obj\\",
+      "outputPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13146,7 +13240,23 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Business.Interfaces\\RefeicaoAPI.Business.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Business.Interfaces\\RefeicaoAPI.Business.Interfaces.csproj"
+            },
+            "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Entities\\RefeicaoAPI.Entities.csproj": {
+              "projectPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Entities\\RefeicaoAPI.Entities.csproj"
+            },
+            "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.BusinessLayer\\RefeicaoAPI.Business.csproj": {
+              "projectPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.BusinessLayer\\RefeicaoAPI.Business.csproj"
+            },
+            "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Repository\\RefeicaoAPI.Repository.csproj": {
+              "projectPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Repository\\RefeicaoAPI.Repository.csproj"
+            },
+            "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Repository.Interfaces\\RefeicaoAPI.Repository.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\r.inazawa.araujo\\Desktop\\GitHub\\RefeicaoAPI\\RefeicaoAPI.Repository.Interfaces\\RefeicaoAPI.Repository.Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

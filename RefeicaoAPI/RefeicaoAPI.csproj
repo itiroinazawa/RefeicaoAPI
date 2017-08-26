@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Models\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
@@ -17,6 +18,14 @@
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RefeicaoAPI.Business.Interfaces\RefeicaoAPI.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\RefeicaoAPI.BusinessLayer\RefeicaoAPI.Business.csproj" />
+    <ProjectReference Include="..\RefeicaoAPI.Entities\RefeicaoAPI.Entities.csproj" />
+    <ProjectReference Include="..\RefeicaoAPI.Repository.Interfaces\RefeicaoAPI.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\RefeicaoAPI.Repository\RefeicaoAPI.Repository.csproj" />
   </ItemGroup>
 
 </Project>
