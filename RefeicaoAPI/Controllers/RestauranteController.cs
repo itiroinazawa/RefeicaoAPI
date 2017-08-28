@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using RefeicaoAPI.Business.Interfaces;
+using RefeicaoAPI.Entities;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,11 +13,18 @@ namespace RefeicaoAPI.Controllers
     [Route("api/[controller]")]
     public class RestauranteController : Controller
     {
+        IRestauranteManager _restauranteManager;
+
+        public RestauranteController(IRestauranteManager restauranteManager)
+        {
+            _restauranteManager = restauranteManager;
+        }
+
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Restaurante> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _restauranteManager.GetAllRestaurantes();
         }
 
         // GET api/values/5
@@ -29,6 +38,16 @@ namespace RefeicaoAPI.Controllers
         [HttpPost]
         public void Post([FromBody]string value)
         {
+
+        }
+
+        [HttpPost]
+        public IEnumerable<Restaurante> PesquisarRestaurantes([FromBody] string nome)
+        {
+            List<Restaurante> lista = new List<Restaurante>();
+
+
+            return lista;
         }
 
         // PUT api/values/5

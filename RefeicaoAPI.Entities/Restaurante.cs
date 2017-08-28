@@ -6,6 +6,8 @@ namespace RefeicaoAPI.Entities
 {
     public class Restaurante
     {
+        public int ID { get; set; }
+
         public String Nome { get; set; }
 
         public String Endereco { get; set; }
